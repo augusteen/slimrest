@@ -15,3 +15,8 @@ $container['Employee'] = function ($c){
 	$dbService = $c->get('db');
 	return new Employee($dbService);
 };
+
+$container['Songs'] = function ($c){
+	$dbService = $c->get('db');
+	return new Songs($dbService);
+};

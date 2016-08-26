@@ -10,3 +10,5 @@ $app->get('/hello/{name}', function (Request $request, Response $response) {
 });
 
 $app->get('/employee','Employee:getEmployeeData');
+
+$app->get('/songs','Songs:getSongData');
